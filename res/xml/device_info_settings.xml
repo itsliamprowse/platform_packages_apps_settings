@@ -108,5 +108,18 @@
                 android:key="selinux_status"
                 android:title="@string/selinux_status"
                 android:summary="@string/selinux_status_enforcing"/>
+				<!-- ROM name -->
+		<Preference android:key="rom_name"
+				android:enabled="false"
+				android:shouldDisableView="false"
+				android:title="P.D"
+				android:summary="Pixalated Droid"/>
+
+		<!-- ROM build version -->
+				<Preference android:key="rom_number"
+				android:enabled="false"
+				android:shouldDisableView="false"
+				android:title="P.D Build"
+				android:summary="0.0.1"/>
 
 </PreferenceScreen>
